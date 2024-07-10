@@ -59,4 +59,8 @@
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: bolder;
+  border-radius: 20px;
+  width: 35%;
+  justify-content: center;
+
 }

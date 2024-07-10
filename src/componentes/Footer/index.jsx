@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
+import { useLocation, Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 import logo from "./../Header/logo.png";
-import homeIcon from "./../Header/home.png"; 
-import newVideoIcon from "./../Header/novo-video.png"; 
-import { Link } from "react-router-dom";
+import homeIcon from "./../Header/home.png";
+import newVideoIcon from "./../Header/novo-video.png";
 
 const Footer = () => {
-  const [activeButton, setActiveButton] = useState(null);
+  const location = useLocation();
 
-  const handleButtonClick = (buttonName) => {
-    setActiveButton(activeButton === buttonName ? null : buttonName);
-  };
+  // Função para determinar se o botão deve ser ativado com base na URL
+  const isActive = (path) => location.pathname === path;
 
   return (
     <footer className={styles.footerContainer}>
@@ -19,19 +18,17 @@ const Footer = () => {
       <div className={styles.linkContainer}>
         <Link
           to="/"
-          className={`${styles.footerLink} ${activeButton === 'home' ? styles.clicked : ""}`}
-          onClick={() => handleButtonClick('home')}
+          className={`${styles.footerLink} ${isActive('/') ? styles.clicked : ""}`}
         >
           <img src={homeIcon} alt="Home" className={styles.icon} />
-          {activeButton === 'home' && <span>HOME</span>}
+          {isActive('/') && <span>HOME</span>}
         </Link>
         <Link
           to="/novo-video"
-          className={`${styles.footerLink} ${activeButton === 'newVideo' ? styles.clicked : ""}`}
-          onClick={() => handleButtonClick('newVideo')}
+          className={`${styles.footerLink} ${isActive('/novo-video') ? styles.clicked : ""}`}
         >
           <img src={newVideoIcon} alt="Novo Vídeo" className={styles.icon} />
-          {activeButton === 'newVideo' && <span>NOVO VÍDEO</span>}
+          {isActive('/novo-video') && <span>NOVO VÍDEO</span>}
         </Link>
       </div>
     </footer>

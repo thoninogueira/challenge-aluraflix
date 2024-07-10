@@ -46,7 +46,7 @@
   padding: 10px; /* Alinha o botão à direita */
   position: absolute; /* Necessário para ajustar a posição do botão dentro do contêiner */
   top: 2%; /* Resetar qualquer valor de top */
-  left: 90%; /* Resetar qualquer valor de left */
+  left: 85%; /* Resetar qualquer valor de left */
 }
 .dialogBtn button {
   background: transparent;
@@ -76,28 +76,19 @@
   .dialog h1 {
     align-self: center;
     font-size: 32px;
+    padding-top: 40px;
   }
   
-  .dialog > form {
-    
-  }
-  
-  .dialog div {
-    
+  .dialogBtn {
+    top: 2%;
+    left: 83%;
   }
 
-  .dialogBtn {
-    top: 1%;
-    left: 75%;
+  .dialogBtn img {
+    width: 80%;
+  
   }
   
-  .dialogBtn button {
-   
-  }
-  
-  .overlay {
-    
-  }
 } 
 
 
@@ -110,24 +101,31 @@
     padding-top: 20%;
   }
   
-  .dialog > form {
-    
-  }
-  
-  .dialog div {
-    justify-content: center;
-  }
-
   .dialogBtn {
     top: 1%;
-    left: 75%;
+    left: 80%;
   }
-  
-  .dialogBtn button {
-   
-  }
-  
-  .overlay {
+
+  .dialog div {
+    justify-content: center;
     
   }
+  
 } 
+
+@media (max-width: 320px) {
+  .dialogBtn {
+    top: 0%;
+    left: 75%;
+  
+  }
+
+  .dialog h1 {
+    font-size: 22px;
+  }
+
+  .dialogBtn img {
+    width: 90%;
+  
+  }
+}
