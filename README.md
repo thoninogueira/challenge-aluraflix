@@ -39,9 +39,9 @@ Menu: Localizado no header, com opções para "Home" e "Novo Vídeo".
 **Home:** Retorna à página inicial, também acessível clicando no logo do Aluraflix.
 
 
-* **link do site na Vercel**: [https://challenge-one-aluraflix.vercel.app/]
+* **link do site na Vercel**: []
 ## Imagem
-![screencapture-challenge-one-aluraflix-vercel-app-2024-07-04-17_36_51](https://github.com/jefersonssant/challenge-one-aluraflix/assets/133176621/f0443387-144f-4b55-a9e9-ea0f948f351b)
+![src/assets/Captura de tela](https://github.com/jefersonssant/challenge-aluraflix/assets/Captura de tela)
 
 ## Tecnologias utilizadas
 * <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="logo React"/>
