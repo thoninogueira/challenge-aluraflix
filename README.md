@@ -36,7 +36,7 @@ Menu: Localizado no header, com opções para "Home" e "Novo Vídeo".
 **Home:** Retorna à página inicial, também acessível clicando no logo do Aluraflix.
 
 
-* **link do site na Vercel**: []
+* **link do site na Vercel**: [https://challenge-aluraflix-flax.vercel.app/]
 ## Imagem
 ![src/assets/Captura de tela](https://github.com/thoninogueira/challenge-aluraflix/blob/main/src/assets/Captura%20de%20tela)
 
