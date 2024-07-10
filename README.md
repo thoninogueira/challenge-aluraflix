@@ -15,14 +15,11 @@ Aluraflix é um projeto desenvolvido em React com Vite, criado como parte de um 
 ### Execução do Projeto
 Para utilizar todas as funcionalidades do Aluraflix, é necessário clonar o repositório e executar o JSON Server no terminal. Mais detalhes sobre a execução estão disponíveis no repositório.
 
-### Demonstração
-Um vídeo demonstrativo está disponível, mostrando todas as funcionalidades em ação.
-
 ## Dependências 
 `json-server`
 
 ## Funcionalidade:
-* **Importante**: as funcionalidades descritas nos tópicos abaixo só serão possíveis se você clonar este projeto para a sua máquina e rodar o comando no terminal `npm i` para instalação do diretório "node_models" que foi ignorada no git commit, logo após, rode no terminal o comando `npm run dev` e mantenha, pois será necessário abrir outro terminal, abra outro terminal e rode o comando `npm start` ou `json-sever --watch db.json` para carregar os arquivos do db.json. Este projeto está fazendo fetch do my json sever que é diferente do json-server, portando, no componente Inicial, que está na pasta pages, no seu index.jsx troque const videosApi = await fetch('https://my-json-server.typicode.com/thoninogueira/aluraflix-api/videos') por const videosApi = await fetch('http://localhost:3000/videos')
+* **Importante**: as funcionalidades descritas nos tópicos abaixo só serão possíveis se você clonar este projeto para a sua máquina e rodar o comando no terminal `npm i` para instalação do diretório "node_models" que foi ignorada no git commit, logo após, rode no terminal o comando `npm run dev` e mantenha, pois será necessário abrir outro terminal, abra outro terminal e rode o comando `npm start` ou `json-sever --watch db.json` para carregar os arquivos do db.json. Este projeto está fazendo fetch do my json sever que é diferente do json-server, portando, no componente Inicial, que está na pasta pages, no seu index.jsx configure ('http://localhost:3000/videos')
   
 ### Banner com Slider Automático e Manual:
  O banner possui um slider que avança automaticamente a cada 5 segundos. Setas de navegação à esquerda e à direita permitem avançar ou retroceder manualmente. No lado direito do banner, um vídeo clicável direciona o usuário para assisti-lo.
@@ -48,7 +45,7 @@ Menu: Localizado no header, com opções para "Home" e "Novo Vídeo".
 * <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="logo JavaScript">
 * <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="logo Node.js">
 ## Autor
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/154802638?s=400&u=11fcb6503047b8538cf2bd2071b739954f484fe1&v=4" width=115><br><backgroundcollor=f1f1f1><sub text-decoration="none">Thoni Nogueira</sub>](https://github.com/thoninogueira) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/154802638?s=400&u=11fcb6503047b8538cf2bd2071b739954f484fe1&v=4" width=115><br><sub text-decoration="none">Thoni Nogueira</sub>](https://github.com/thoninogueira) |
 | :---: |
 
 Sua colaboração é valiosa nesse projeto, deixe seu feedback!
