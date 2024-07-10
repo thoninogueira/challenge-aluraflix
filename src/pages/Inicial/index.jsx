@@ -24,7 +24,7 @@ const Inicial = () => {
 
   useEffect(() => {
     async function conectApi() {
-      const videosApi = await fetch('http://localhost:3000/videos') 
+      const videosApi = await fetch('https://my-json-server.typicode.com/thoninogueira/aluraflix-api/videos') 
       const videosApiData = await videosApi.json()
       setVideos(videosApiData)
     }
@@ -48,7 +48,7 @@ const Inicial = () => {
   }
 
   const atualizarAposPut = async (videoAtualizado) => {
-    const response = await fetch(`https://my-json-server.typicode.com/thoninogueira/aluraflix-api/videos${videoAtualizado.id}`, {
+    const response = await fetch(`http://localhost:3000/videos/${videoAtualizado.id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
