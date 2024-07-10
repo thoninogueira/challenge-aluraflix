@@ -41,14 +41,14 @@ Menu: Localizado no header, com opções para "Home" e "Novo Vídeo".
 
 * **link do site na Vercel**: []
 ## Imagem
-![src/assets/Captura de tela](https://github.com/jefersonssant/challenge-aluraflix/assets/Captura de tela)
+![src/assets/Captura de tela](https://github.com/thoninogueira/challenge-aluraflix/assets/Captura de tela)
 
 ## Tecnologias utilizadas
 * <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="logo React"/>
 * <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="logo JavaScript">
 * <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="logo Node.js">
 ## Autor
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/133176621?v=4" width=115><br><sub text-decoration="none">Thoni Nogueira</sub>](https://github.com/thoninogueira) |
+| [<https://avatars.githubusercontent.com/u/154802638?v=4" width=115><br><sub text-decoration="none">Thoni Nogueira</sub>](https://github.com/thoninogueira) |
 | :---: |
 
 Sua colaboração é valiosa nesse projeto, deixe seu feedback!
