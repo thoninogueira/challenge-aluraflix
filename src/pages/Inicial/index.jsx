@@ -48,7 +48,7 @@ const Inicial = () => {
   }
 
   const atualizarAposPut = async (videoAtualizado) => {
-    const response = await fetch(`http://localhost:3000/videos/${videoAtualizado.id}`, {
+    const response = await fetch(`https://github.com/thoninogueira/aluraflix-api/blob/main/db.json${videoAtualizado.id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
